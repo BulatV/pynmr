@@ -1,5 +1,3 @@
 language: python
 python:
-	- 3.8
-
-script: python TEST.py
+	- '3.8'
