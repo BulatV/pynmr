@@ -1,8 +1,8 @@
 language: python
 python:
 	- '3.8'
+	- 'pypy3'
 install:
 	- pip install -r requirements.text
-script:
-	- pip .install
-	- pytest -ra
+	- pip install .
+script: pytest
