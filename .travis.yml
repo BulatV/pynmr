@@ -5,4 +5,5 @@ python:
 install:
 	- pip install -r requirements.text
 	- pip install .
-script: pytest
+script: 
+	python TEST.py
