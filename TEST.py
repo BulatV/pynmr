@@ -14,7 +14,8 @@ def random_plot(mmin=0, mmax=1, llength=100):
 
     fig, ax = plt.subplots()
     ax.plot(x, y, '.g', alpha=0.85, lw=3.5)
-    plt.title('Random numbers from {} to {}'.format(str(mmin), str(mmax)), loc='center')
+    plt.title('Random numbers from {} to {}'.format(
+        str(mmin), str(mmax)), loc='center')
     plt.show()
 
 
